@@ -1,0 +1,4 @@
+function FindProxyForURL(url, host) {
+	alert("Hello! I am an alert box!!");
+	return 'PROXY 1.1.1.1:8080';
+}
